@@ -1,0 +1,9 @@
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/shopfront/src/main/java/uk/co/danielbryant/djshopping/shopfront/repo/ProductRepo.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/shopfront/src/main/java/uk/co/danielbryant/djshopping/shopfront/resources/ProductResource.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/shopfront/src/main/java/uk/co/danielbryant/djshopping/shopfront/controllers/HomeController.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/shopfront/src/main/java/uk/co/danielbryant/djshopping/shopfront/services/dto/ProductDTO.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/shopfront/src/main/java/uk/co/danielbryant/djshopping/shopfront/repo/StockRepo.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/shopfront/src/main/java/uk/co/danielbryant/djshopping/shopfront/services/ProductService.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/shopfront/src/main/java/uk/co/danielbryant/djshopping/shopfront/ShopfrontApplication.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/shopfront/src/main/java/uk/co/danielbryant/djshopping/shopfront/services/dto/StockDTO.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/shopfront/src/main/java/uk/co/danielbryant/djshopping/shopfront/model/Product.java

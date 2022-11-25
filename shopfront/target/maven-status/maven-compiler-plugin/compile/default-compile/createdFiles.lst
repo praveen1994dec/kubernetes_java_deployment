@@ -1,0 +1,11 @@
+uk/co/danielbryant/djshopping/shopfront/model/Product.class
+uk/co/danielbryant/djshopping/shopfront/repo/ProductRepo$1.class
+uk/co/danielbryant/djshopping/shopfront/services/dto/ProductDTO.class
+uk/co/danielbryant/djshopping/shopfront/controllers/HomeController.class
+uk/co/danielbryant/djshopping/shopfront/services/dto/StockDTO.class
+uk/co/danielbryant/djshopping/shopfront/repo/StockRepo.class
+uk/co/danielbryant/djshopping/shopfront/repo/ProductRepo.class
+uk/co/danielbryant/djshopping/shopfront/repo/StockRepo$1.class
+uk/co/danielbryant/djshopping/shopfront/services/ProductService.class
+uk/co/danielbryant/djshopping/shopfront/resources/ProductResource.class
+uk/co/danielbryant/djshopping/shopfront/ShopfrontApplication.class

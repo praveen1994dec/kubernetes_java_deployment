@@ -1,0 +1,7 @@
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/config/DataGenerator.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/resources/StockResource.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/StockManagerApplication.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/repositories/StockRepository.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/services/StockService.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/exceptions/StockNotFoundException.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/model/Stock.java

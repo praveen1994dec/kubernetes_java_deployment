@@ -1,0 +1,6 @@
+uk/co/danielbryant/djshopping/productcatalogue/model/Product.class
+uk/co/danielbryant/djshopping/productcatalogue/resources/ProductResource.class
+uk/co/danielbryant/djshopping/productcatalogue/configuration/ProductServiceConfiguration.class
+uk/co/danielbryant/djshopping/productcatalogue/healthchecks/BasicHealthCheck.class
+uk/co/danielbryant/djshopping/productcatalogue/ProductServiceApplication.class
+uk/co/danielbryant/djshopping/productcatalogue/services/ProductService.class

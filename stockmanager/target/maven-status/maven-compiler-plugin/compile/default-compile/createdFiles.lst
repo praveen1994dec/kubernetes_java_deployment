@@ -1,0 +1,7 @@
+uk/co/danielbryant/djshopping/stockmanager/model/Stock.class
+uk/co/danielbryant/djshopping/stockmanager/config/DataGenerator.class
+uk/co/danielbryant/djshopping/stockmanager/exceptions/StockNotFoundException.class
+uk/co/danielbryant/djshopping/stockmanager/StockManagerApplication.class
+uk/co/danielbryant/djshopping/stockmanager/repositories/StockRepository.class
+uk/co/danielbryant/djshopping/stockmanager/services/StockService.class
+uk/co/danielbryant/djshopping/stockmanager/resources/StockResource.class

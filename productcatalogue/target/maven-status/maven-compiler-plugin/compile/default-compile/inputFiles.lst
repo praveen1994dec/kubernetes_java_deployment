@@ -1,0 +1,6 @@
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/productcatalogue/src/main/java/uk/co/danielbryant/djshopping/productcatalogue/healthchecks/BasicHealthCheck.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/productcatalogue/src/main/java/uk/co/danielbryant/djshopping/productcatalogue/services/ProductService.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/productcatalogue/src/main/java/uk/co/danielbryant/djshopping/productcatalogue/ProductServiceApplication.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/productcatalogue/src/main/java/uk/co/danielbryant/djshopping/productcatalogue/configuration/ProductServiceConfiguration.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/productcatalogue/src/main/java/uk/co/danielbryant/djshopping/productcatalogue/resources/ProductResource.java
+/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/docker-Java-kubernetes-project/productcatalogue/src/main/java/uk/co/danielbryant/djshopping/productcatalogue/model/Product.java
