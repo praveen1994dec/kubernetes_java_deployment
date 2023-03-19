@@ -1,4 +1,7 @@
 # docker-Java-kubernetes-project
+
+INSTALL MINIKUBE - https://minikube.sigs.k8s.io/docs/start/
+
 Deploying Java Applications with Docker and Kubernetes
 
 1) Build each project ->> mvn clean install -DskipTests
