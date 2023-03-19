@@ -32,7 +32,7 @@ minikube start --driver=none
 
 INSTALL EKS SETUP
 #############################################################
-Step1: Take EC2 Instance with t2.xlarge instance type
+Step1: Take EC2 Instance with t2.MEDIUM instance type
 Step2: Create IAM Role with Admin policy for eks-cluster and attach to ec2-instance
 Step3: Install kubectl
 
@@ -50,8 +50,8 @@ curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/d
 sudo mv /tmp/eksctl /usr/bin
 eksctl version
 
-Step5: Cluster creation:
-eksctl create cluster --name=eksdemo \
+Step5: MASTER Cluster creation:
+eksctl create cluster --name=eksdemo-batch2 \
                   --region=us-west-1 \
                   --zones=us-west-1b,us-west-1c \
                   --without-nodegroup 
@@ -59,14 +59,14 @@ eksctl create cluster --name=eksdemo \
 Step6: Add Iam-Oidc-Providers:
 eksctl utils associate-iam-oidc-provider \
     --region us-west-1 \
-    --cluster eksdemo \
+    --cluster eksdemo-batch2 \
     --approve 
 
 Allowing the service to connect with EKS
 
 
-Step7: Create node-group:
-eksctl create nodegroup --cluster=eksdemo \
+Step7: WORKER NODE Create node-group:
+eksctl create nodegroup --cluster=eksdemo-batch2 \
                    --region=us-west-1 \
                    --name=eksdemo-ng-public \
                    --node-type=t2.medium \
@@ -87,11 +87,11 @@ eksctl create nodegroup --cluster=eksdemo \
 Step8: Delete
 Kubectl delete svc
  
-eksctl delete nodegroup --cluster=eksdemo-dev --region=us-east-1 --name=eksdemo-ng-public
+//eksctl delete nodegroup --cluster=eksdemo-batch2-dev --region=us-east-1 --name=eksdemo-ng-public
 
 
 
-eksctl delete cluster --name=eksdemo    --region=us-west-1	
+//eksctl delete cluster --name=eksdemo    --region=us-west-1	
 
 
 
