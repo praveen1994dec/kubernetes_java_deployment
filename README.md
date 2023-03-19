@@ -19,13 +19,7 @@ yum install docker -y
 systemctl  start docker
 systemctl enable docker
 
-MINIKUBE
-curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-chmod +x minikube
-sudo mv minikube /usr/local/bin/
-yum install conntrack -y
-export PATH=/usr/local/bin:$PATH
-minikube start --driver=none
+https://minikube.sigs.k8s.io/docs/start/
 ***********************************************************
 
 
