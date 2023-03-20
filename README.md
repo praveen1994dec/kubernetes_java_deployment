@@ -45,7 +45,7 @@ sudo mv /tmp/eksctl /usr/bin
 eksctl version
 
 Step5: MASTER Cluster creation:
-eksctl create cluster --name=eksdemo-batch2 \
+eksctl create cluster --name=eksdemo \
                   --region=us-west-1 \
                   --zones=us-west-1b,us-west-1c \
                   --without-nodegroup 
@@ -53,14 +53,14 @@ eksctl create cluster --name=eksdemo-batch2 \
 Step6: Add Iam-Oidc-Providers:
 eksctl utils associate-iam-oidc-provider \
     --region us-west-1 \
-    --cluster eksdemo-batch2 \
+    --cluster eksdemo \
     --approve 
 
 Allowing the service to connect with EKS
 
 
 Step7: WORKER NODE Create node-group:
-eksctl create nodegroup --cluster=eksdemo-batch2 \
+eksctl create nodegroup --cluster=eksdemo \
                    --region=us-west-1 \
                    --name=eksdemo-ng-public \
                    --node-type=t2.medium \
@@ -78,10 +78,8 @@ eksctl create nodegroup --cluster=eksdemo-batch2 \
                    --alb-ingress-access	
 
 
-Step8: Delete
-Kubectl delete svc
  
-//eksctl delete nodegroup --cluster=eksdemo-batch2-dev --region=us-east-1 --name=eksdemo-ng-public
+//eksctl delete nodegroup --cluster=eksdemo --region=us-east-1 --name=eksdemo-ng-public
 
 
 
