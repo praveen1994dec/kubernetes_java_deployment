@@ -15,7 +15,7 @@ source $HOME/.bashrc
 kubectl version --short --client
 
 DOCKER
-yum install docker -y
+yum install docker -y y
 systemctl  start docker
 systemctl enable docker
 
