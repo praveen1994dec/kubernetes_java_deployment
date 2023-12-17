@@ -1,7 +1,7 @@
    # docker-Java-kubernetes-project
 
 
-INSTALL MINIKUBE   
+INSTALL MINIKUBE      
 ***********************************************************
 
 KUBECTL  
