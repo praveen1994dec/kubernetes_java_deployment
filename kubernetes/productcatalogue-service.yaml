@@ -31,12 +31,12 @@ spec:
     spec:
       containers:
       - name: productcatalogue
-        image: praveensingam1994/productcatalogue:latest
+        image: durai54/productcatalogue:latest
         ports:
         - containerPort: 8020
         livenessProbe:
           httpGet:
             path: /healthcheck
-            port: 8025
+            port: 8020
           initialDelaySeconds: 30
           timeoutSeconds: 1
